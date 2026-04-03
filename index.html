@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width"=device-width,
+initial-scale="1.0">
+<title>Bus Pass</title>
+
+<style>
+
+body{
+    font-family: Arial, 
+sans-serif;
+    background:#1e5ea8;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    min-height:100vh;
+    margin:0;
+    padding:15px;
+}
+
+.container{
+    width:100%;
+    max-width:380px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.profile{
+    display:flex;
+    gap:15px;
+}
+
+.profile img{
+    width:90px;
+    height:110px;
+    border-radius:10px;
+    object-fit:cover;
+}
+
+.label{
+    color:gray;
+    font-size:14px;
+}
+
+.name{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.passid{
+    margin-top:10px;
+}
+
+.type{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.badges{
+    margin:10px 0;
+}
+
+.badge{
+    display:inline-block;
+    background:#e6eef9;
+    padding:6px 12px;
+    border-radius:12px;
+    margin-right:5px;
+    color:#3a6fb0;
+    font-size:14px;
+}
+
+.row{
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+}
+
+.fare{
+    font-size:26px;
+    font-weight:bold;
+}
+
+.qrbtn{
+    background:white;
+    border-radius:20px;
+    text-align:center;
+    padding:15px;
+    font-weight:bold;
+    color:#2f6bb0;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<div class="profile">
+<img src="bus.jpg">
+
+<div>
+<div class="label">Passenger Name</div>
+<div class="name">Amitra kumar</div>
+
+<div class="label">Verification Document</div>
+<div>Aadhar Card - 2583</div>
+
+<div class="label passid">Pass ID</div>
+<div>MP0204202613b0737b4d</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="label">Pass Type</div>
+<div class="type">MONTHLY GENERAL ALL ROUTE AC PASS</div>
+
+<div class="label">Pass valid in</div>
+
+<div class="badges">
+<span class="badge">AC</span>
+<span class="badge">Non-AC</span>
+<span class="badge">Electric</span>
+<span class="badge">All Routes</span>
+</div>
+
+<div class="row">
+<div>
+<div class="label">Valid From</div>
+<div>02 Apr, 26 | 02:34 PM</div>
+</div>
+
+<div>
+<div class="label">Valid Till</div>
+<div>01 May, 26 | 11:59 PM</div>
+</div>
+</div>
+
+<div class="row">
+<div class="label">Pass Fare</div>
+<div class="fare">₹1000</div>
+</div>
+
+<center style="margin-top:10px;color:#2f6bb0;font-weight:bold;">
+ONDC NETWORK
+</center>
+
+</div>
+
+<div class="qrbtn">
+Show QR code
+</div>
+
+</div>
+
+</body>
+</html>
